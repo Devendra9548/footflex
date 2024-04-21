@@ -42,13 +42,13 @@
         <div class="col-12 col-md-2 mb-none" style="border-right:1px solid #0002">
             <form action="" class="my-3" id="catForm">
                 <p class="mb-2" style="font-size:14px;font-weight:bold">
-                    <input class="form-check-input me-3" name="category" value="mens" type="checkbox" onchange="catForm()"> Men
+                    <input class="form-check-input me-3" name="category" value="sport-shoes" type="checkbox" onchange="catForm()"> Men
                 </p>
                 <p class="mb-2" style="font-size:14px;font-weight:bold">
-                    <input class="form-check-input me-3" name="category" value="women" type="checkbox" onchange="catForm()"> Women
+                    <input class="form-check-input me-3" name="category" value="casual-shoes" type="checkbox" onchange="catForm()"> Women
                 </p>
                 <p class="mb-2" style="font-size:14px;font-weight:bold">
-                    <input class="form-check-input me-3" name="category" value="kids" type="checkbox" onchange="catForm()"> Kids
+                    <input class="form-check-input me-3" name="category" value="formal-footwear" type="checkbox" onchange="catForm()"> Kids
                 </p>
             </form>
 

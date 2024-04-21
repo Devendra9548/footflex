@@ -55,7 +55,7 @@
         <div class="row mb-3 d-flex justify-content-between align-items-center">
             <div class="col-12">
                 <p style="margin:0px!important;margin-bottom:15px!important" class="text-center">© Copyright 2024
-                    EarlyLifestyle</p>
+                    FootFlex</p>
             </div>
         </div>
     </div>
