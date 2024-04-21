@@ -23,10 +23,10 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-7 col-md-10 d-flex justify-content-start align-items-center">
-                <h2>Shop By Men's</h2>
+                <h2>Shop By Sport Shoes</h2>
             </div>
             <div class="col-5 col-md-2 d-flex justify-content-end align-items-center">
-                <a href="/shop?category=mens" class="globalbtn">See More <i class="fa-solid fa-angles-right"></i></a>
+                <a href="/shop?category=sport-shoes" class="globalbtn">See More <i class="fa-solid fa-angles-right"></i></a>
             </div>
             <div class="col-12">
                 <hr>
@@ -36,7 +36,7 @@
             <div class="col-12">
                 <div class="shopbycategory">
                     @foreach($products as $product)
-                    @if($product->category_name == 'Mens')
+                    @if($product->category_name == 'Sport Shoes')
                     <div class="slide-cols">
                         <div class="scard">
                             <a href="/shop/{{ $product->slug }}">
@@ -68,10 +68,10 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-7 col-md-10 d-flex justify-content-start align-items-center">
-                <h2>Shop By Women's</h2>
+                <h2>Shop By Casual Shoes</h2>
             </div>
             <div class="col-5 col-md-2 d-flex justify-content-end align-items-center">
-                <a href="/shop?category=women" class="globalbtn">See More <i class="fa-solid fa-angles-right"></i></a>
+                <a href="/shop?category=casual-shoes" class="globalbtn">See More <i class="fa-solid fa-angles-right"></i></a>
             </div>
             <div class="col-12">
                 <hr>
@@ -81,7 +81,7 @@
             <div class="col-12">
                 <div class="shopbycategory">
                     @foreach($products as $product)
-                    @if($product->category_name == 'Women')
+                    @if($product->category_name == 'Casual Shoes')
                     <div class="slide-cols">
                         <div class="scard">
                             <a href="/shop/{{ $product->slug }}">
@@ -113,10 +113,10 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-7 col-md-10 d-flex justify-content-start align-items-center">
-                <h2>Shop By Kid's</h2>
+                <h2>Shop By Formal Footwear</h2>
             </div>
             <div class="col-5 col-md-2 d-flex justify-content-end align-items-center">
-                <a href="/shop?category=kids" class="globalbtn">See More <i class="fa-solid fa-angles-right"></i></a>
+                <a href="/shop?formal-footwear" class="globalbtn">See More <i class="fa-solid fa-angles-right"></i></a>
             </div>
             <div class="col-12">
                 <hr>
@@ -126,7 +126,7 @@
             <div class="col-12">
                 <div class="shopbycategory">
                     @foreach($products as $product)
-                    @if($product->category_name == 'Kids')
+                    @if($product->category_name == 'Formal Footwear')
                     <div class="slide-cols">
                         <div class="scard">
                             <a href="/shop/{{ $product->slug }}">
