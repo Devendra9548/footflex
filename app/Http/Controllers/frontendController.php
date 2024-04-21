@@ -298,7 +298,6 @@ class frontendController extends Controller
                 ->select('products.p_name as pname', 'products.p_price as pprice', 'products.r_price as rprice', 'products.p_image as pimages', 'products.p_image_first as pimagefirst', 'products.p_image_second as psecondimage', 'products.p_image_third as pthirdimage', 'products.sizes as sizes', 'products.description as description', 'products.slug as productslug', 'product_categories.slug as category_slug','product_categories.category_name as categoryname','product_categories.image as categoryimage')
                 ->where('product_categories.category_name', $category)
                 ->get();
-            return $member;
         }
         return view('shop', ['pageseo'=>$pageseo,'gseo'=>$gseo,'homepageseo'=>$homepageseo,'products'=>$member]);
     }
