@@ -1,0 +1,85 @@
+.navbar ul {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar ul li {
+  display: inline-block;
+}
+.navbar ul li:not(:last-child) {
+  margin-right: 22px;
+}
+.navbar ul li a {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.cards .name a {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 9999;
+  margin-bottom: 0px;
+}
+header .container-fluid {
+  background: #f6f6f6 !important;
+}
+header a, header i, header p {
+  color: #000 !important;
+}
+header form i {
+  color: #000 !important;
+}
+
+.breadcrumbs {
+  background: #131921 !important;
+}
+.breadcrumbs a, .breadcrumbs p {
+  color: #fff !important;
+}
+
+.ds-header {
+  display: block;
+}
+
+.mb-header {
+  display: none;
+}
+
+#mbnav {
+  position: fixed;
+  top: 0px;
+  background: #000;
+  width: 100%;
+  padding: 0px !important;
+  margin: 0px !important;
+  left: 0px;
+  z-index: 1000;
+  padding-left: 20px !important;
+  padding-top: 20px !important;
+  height: 100vh;
+  display: block;
+}
+#mbnav ul li {
+  display: block !important;
+  margin-bottom: 20px !important;
+}
+#mbnav ul li a {
+  font-size: 20px !important;
+}
+
+#mbnav {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .ds-header {
+    display: none;
+  }
+  .mb-header {
+    display: block;
+  }
+}/*# sourceMappingURL=header.css.map */

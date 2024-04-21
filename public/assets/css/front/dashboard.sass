@@ -1,0 +1,147 @@
+$tg-bg-primary: #207ba1
+$tg-text-primary: #207ba1
+
+.tg
+--bg-primary: #{$tg-bg-primary}
+--text-primary: #{$tg-text-primary}
+
+.tg-account
+.account-banner
+    background: #131921
+    width: 100%
+    float: left
+    padding: 40px 0 0
+
+    .inner-banner
+    .detail *
+        color: #fff
+
+    .profile
+        text-align: center
+
+        span.image img
+            width: 130px
+            border-radius: 50%
+            box-shadow: 0px 0px 15px -10px #000
+
+    .detail
+        h3.user-name
+            font-size: 20px
+            margin-top: 20px
+
+    .nav-area
+        width: 100%
+        float: left
+        margin-top: 45px
+
+        ul li
+        margin-right: 7px
+
+        a
+            background: rgba(255, 255, 255, .4)
+            color: #fff
+            font-weight: 500
+            border-radius: 0px
+            font-size: 16px
+            border: none
+            padding: 10px 28px
+            min-width: 120px
+            display: block
+            transition: .4s
+            text-align: center
+
+            &.active,
+            &:hover
+                color: var(--text-primary)
+                background: #fff
+
+.tg-tabs-content-wrapp
+    width: 100%
+    float: left
+    padding: 30px 0
+
+form.tg-form
+    width: 100%
+    float: left
+    background: #f7f7f7
+    padding: 30px 30px 60px
+    border: 1px solid #eaeaea
+
+    button
+        background: var(--bg-primary)
+        border: none
+        padding: 10px 32px
+        cursor: pointer
+        margin: 13px 0 0
+
+.my-account-dashboard
+    .card
+    img
+        max-width: 80px
+
+        text-align: center
+
+    h2
+        font-size: 20px
+        margin-top: 14px
+
+    p
+        font-size: 15px
+
+        cursor: pointer
+
+    &:hover,
+    &.active
+        background: var(--text-primary)
+
+        *
+            color: #fff
+
+            transition: .4s
+            border-radius: 0px
+            box-shadow: 0px 2px 7px -5px
+
+#my-orders-table
+&_length,
+&_filter
+    width: fit-content
+    float: left
+
+    select,
+    input
+        border: 1px solid #207ba1
+        padding: 5px 15px
+
+&_length,
+&_filter
+    margin-bottom: 22px
+
+&_info
+    float: left
+
+&_paginate
+    float: right
+
+    a
+        background: #e6e6e6
+        margin: 0 2px
+        padding: 3px 11px
+        display: inline-block
+        cursor: pointer
+        text-decoration: none
+        color: #000
+
+    &.current
+        color: #fff !important
+        background: var(--primary)
+
+        margin-top: 8px
+
+    .page-item
+    &.active
+        .page-link
+            background-color: lightgrey !important
+            border: 1px solid black
+
+        .page-link
+            color: black !important

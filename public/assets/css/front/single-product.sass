@@ -1,0 +1,146 @@
+.single-product-page
+    background: #fff!important
+    .container-fluid
+        .row-2
+            padding: 0px 15px!important
+
+    #lens:hover
+        cursor: crosshair
+
+.slideshow-items
+    width: 100%
+
+.slideshow-thumbnails
+    width: 100px!important
+    height: 100px!important
+    object-fit: cover!important
+    object-position: top
+    overflow: hidden
+    margin-bottom: 20px
+
+#slideshow-items-container
+    display: block
+    position: relative
+
+#lens
+    background-color: rgba( 233, 233, 233, 0.4 )
+
+#lens, #result
+    position: absolute
+    display: none
+    z-index: 9
+
+.slideshow-items
+    display: none
+
+    &.active
+        display: block
+
+.slideshow-thumbnails
+    opacity: 0.5
+
+    &.active
+        opacity: 1
+
+    #lens, .slideshow-items, &, #result
+        border: solid var(--light-grey-2) 1px
+
+.offercard
+    border: 1px solid #696969
+    padding: 20px
+    border-radius: 10px
+    position: sticky
+    background: #fff
+    top: 0px
+form
+    label
+        display: block
+        margin-bottom: 20px
+        position: relative
+        input
+            position: absolute
+            right: 10px
+            top: 10px
+            border-color: #000!important
+            cursor: pointer
+
+.size
+    position: relative
+    .form-check-input
+        width: 3em!important
+        height: 3em!important
+        z-index: 6
+        position: relative
+        cursor: pointer
+        background: transparent
+        border: 1px solid #000
+    p
+        position: absolute
+        top: 12px
+        left: 16px
+        font-size: 20px
+        color: #008aad
+        z-index: 5
+
+.morecolor
+    a
+        width: 15%!important
+        margin-right: 15px!important
+
+.main-content
+    .price
+        font-size: 26px
+        font-weight: bold
+        margin-bottom: 10px !important
+        span
+            font-weight: 400
+    .product-name
+        font-size: 20px
+    .product-category
+        font-size: 24px
+        font-weight: bold
+        margin-bottom: 15px!important
+
+.similar-product
+    .product-name
+        font-size: 16px!important
+        margin-left: 15px!important
+        margin-right: 15px!important
+        margin-top: 10px!important
+        margin-bottom: 10px!important
+
+    .category
+        margin-top: 15px!important
+        margin-left: 15px!important
+        margin-right: 15px!important
+
+    .price
+        margin-left: 15px!important
+        margin-right: 15px!important
+        margin-bottom: 15px!important
+        font-weight: bold
+
+.productcard
+    border: 1px solid #0002
+
+.form-check-input:checked
+    border-color: #0d6efd!important
+    box-shadow: 0px 0px 1px 2px #008aad!important
+    color: #000
+
+.form-check-input:checked + p
+    color: #000!important
+    font-weight: bold
+
+.container-sidebar-popup
+    position: fixed
+    right: 0px
+    width: 30%
+    top: 0px
+    padding: 0px
+    z-index: 999123
+    background: #000
+    height: 100vh
+
+#sidebarpopup
+    display: none

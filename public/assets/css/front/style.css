@@ -1,0 +1,143 @@
+h1, h2, h3, h4, h5, h6, body, p, span, div, body, p, a, ul, li, ol {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #e3e6e6;
+}
+body p, body h3, body h3, body h1, body span {
+  background-color: transparent !important;
+}
+
+a {
+  color: #453d3d;
+  text-decoration: none;
+}
+
+p {
+  margin: 0px !important;
+}
+
+.prev-arrow, .next-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 999;
+  font-size: 21px;
+  background: transparent;
+  color: #fff;
+  border: 0px solid #fff;
+  left: -1px;
+  padding: 10px 20px;
+}
+.prev-arrow i, .next-arrow i {
+  color: #000;
+}
+
+.next-arrow {
+  right: 0px;
+  left: auto;
+}
+
+.prev-arrow:hover, .next-arrow:hover {
+  background: #fff !important;
+  color: #000 !important;
+  border-color: #fff !important;
+}
+
+.d-section {
+  background: #fff;
+  margin: 50px 15px !important;
+  padding: 30px 15px !important;
+  border-radius: 10px !important;
+}
+.d-section h2 {
+  display: inline-block;
+  background: #fff;
+  z-index: 1;
+  position: relative;
+  padding-right: 40px;
+  font-size: 26px;
+}
+.d-section hr {
+  margin-top: -22px;
+}
+.d-section .col-md-2 {
+  position: relative;
+  z-index: 2;
+  background: #fff;
+}
+
+.globalbtn {
+  background: #232f3e;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 54px;
+  position: relative;
+  z-index: 2;
+}
+.globalbtn:hover {
+  background: #000;
+}
+
+.slide-cols {
+  padding: 10px;
+}
+
+.scard .title {
+  font-size: 18px;
+  margin-top: 10px !important;
+}
+.scard .offer {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.button1 {
+  background: #232f3e;
+  color: #fff;
+  padding: 14px 40px;
+  border: 1px solid #232f3e;
+  border-radius: 0px;
+  position: relative;
+  z-index: 2;
+}
+.button1:hover {
+  background: #000;
+}
+
+.button2 {
+  background: #ffffff;
+  color: #232f3e;
+  padding: 14px 40px;
+  border: 1px solid rgba(35, 47, 62, 0.4352941176);
+  border-radius: 0px;
+  position: relative;
+  z-index: 2;
+}
+.button2:hover {
+  border: 1px solid #000;
+  color: #000;
+}
+
+.container-fluid .row-2 {
+  padding: 0px 15px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .mb-none {
+    display: none !important;
+  }
+  .d-section h2 {
+    font-size: 14px;
+  }
+  .globalbtn {
+    font-size: 12px !important;
+  }
+  .d-section {
+    background: #fff;
+    margin: 50px 10px !important;
+    padding: 15px 0px !important;
+    border-radius: 10px !important;
+  }
+}/*# sourceMappingURL=style.css.map */

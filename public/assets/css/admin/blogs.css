@@ -1,0 +1,25 @@
+#preview img {
+  width: 200px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 20px;
+}
+
+label {
+  padding-left: 2px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.hide-1, .hide-2, .hide-3 {
+  display: none;
+  background: #e3e6e6 !important;
+  padding: 30px !important;
+  border: 2px solid #c7c7c7 !important;
+}
+.hide-1 input, .hide-2 input, .hide-3 input {
+  border: 1px solid #a0a0a0 !important;
+}/*# sourceMappingURL=blogs.css.map */

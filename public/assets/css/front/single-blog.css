@@ -1,0 +1,21 @@
+.single-blog .main-blog img {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    border-top: 1px solid #fff;
+    margin-bottom: 60px;
+  }
+  .single-blog {
+    position: relative;
+    top: 62px;
+  }
+  .single-blog form {
+    position: absolute !important;
+    top: -62px;
+    width: 90%;
+    left: 23px;
+  }
+}/*# sourceMappingURL=single-blog.css.map */

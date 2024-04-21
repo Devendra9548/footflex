@@ -1,0 +1,65 @@
+body {
+  background: #fff !important;
+}
+
+.shop hr {
+  margin: 0px !important;
+  border-color: #a7a7a7 !important;
+}
+.shop h2 {
+  font-size: 20px;
+}
+.shop .search {
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.shop .search .submit {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: #131921;
+  color: #fff;
+  padding: 7px 20px;
+  border: 0px;
+}
+.shop .sortby {
+  margin-right: 20px;
+}
+.shop form select, .shop form input {
+  border: 1px solid #232323;
+}
+.shop .product-name {
+  font-size: 16px !important;
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+.shop .category {
+  margin-top: 15px !important;
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}
+.shop .price {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  margin-bottom: 15px !important;
+  font-weight: bold;
+}
+.shop .productcard {
+  border: 1px solid rgba(0, 0, 0, 0.1333333333);
+}
+
+@media only screen and (max-width: 768px) {
+  .shop .search {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .shop .search-form {
+    width: 100% !important;
+    margin-top: 30px !important;
+    margin-bottom: 10px !important;
+  }
+}/*# sourceMappingURL=shop.css.map */
