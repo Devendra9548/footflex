@@ -36,7 +36,7 @@
             <div class="col-12">
                 <div class="shopbycategory">
                     @foreach($products as $product)
-                    @if($product->category_name == 'Sport Shoes')
+                    @if($product->category_name == 'sport')
                     <div class="slide-cols">
                         <div class="scard">
                             <a href="/shop/{{ $product->slug }}">
